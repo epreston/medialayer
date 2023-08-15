@@ -1,0 +1,31 @@
+{
+  "name": "medialayer",
+  "version": "0.0.1",
+  "description": "Media management layer",
+  "type": "module",
+  "module": "./dist/medialayer.esm-bundler.js",
+  "exports": "./dist/medialayer.esm-bundler.js",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "buildOptions": {
+    "formats": [
+      "esm-bundler"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epreston/medialayer.git",
+    "directory": "packages/medialayer"
+  },
+  "keywords": [
+    "medialayer", "2D"
+  ],
+  "author": "Ed Preston",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/epreston/medialayer/issues"
+  },
+  "homepage": "https://github.com/epreston/medialayer/blob/main/packages/medialayer#readme"
+}
