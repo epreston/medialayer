@@ -14,7 +14,7 @@ const entries = {
   medialayer: resolveEntryForPkg('medialayer')
 };
 
-const nonSrcPackages = ['utils', 'size-check'];
+const nonSrcPackages = ['utils'];
 
 for (const dir of dirs) {
   const key = `@medialayer/${dir}`;
