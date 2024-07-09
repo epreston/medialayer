@@ -32,7 +32,7 @@
     "lint": "eslint --ext .js --report-unused-disable-directives .",
     "test": "vitest run",
     "test-watch": "vitest",
-    "test-coverage": "vitest run --coverage",
+    "test-coverage": "vitest run --coverage.enabled",
     "format": "prettier --check --cache \"**/*.?(c|m)[tj]s?(x)\"",
     "format-fix": "prettier --write --cache \"**/*.?(c|m)[tj]s?(x)\""
   },
