@@ -1,6 +1,3 @@
-// import types for vitest config autocomplete
-/// <reference types="vitest" />
-
 import { configDefaults, defineConfig } from 'vitest/config';
 import { entries } from './scripts/aliases.js';
 
@@ -24,6 +21,7 @@ export default defineConfig({
   },
   test: {
     // globals: true,
+    pool: 'forks',
     setupFiles: ['./scripts/setup-vitest.js'],
     sequence: {
       hooks: 'list'
@@ -32,8 +30,9 @@ export default defineConfig({
       provider: 'v8',
       reporter: ['text-summary', 'html'],
       exclude: [
-        ...configDefaults.coverage.exclude
+        ...configDefaults.coverage.exclude,
         // entries that skew coverage reports here
+        'scripts/**'
       ]
     }
   }
