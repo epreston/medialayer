@@ -4,6 +4,7 @@
   "name": "@medialayer/monorepo",
   "version": "0.0.2",
   "packageManager": "npm@10.4.0",
+  "repository": "github:epreston/medialayer",
   "workspaces": [
     "packages/*"
   ],
