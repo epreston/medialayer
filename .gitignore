@@ -21,7 +21,6 @@ coverage
 
 # Distribution Directory
 dist
-dist/*
 
 # Optional eslint cache
 .eslintcache
