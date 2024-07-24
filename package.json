@@ -3,7 +3,7 @@
   "type": "module",
   "name": "@medialayer/monorepo",
   "version": "0.0.2",
-  "packageManager": "npm@10.4.0",
+  "packageManager": "npm@10.7.0",
   "repository": "github:epreston/medialayer",
   "workspaces": [
     "packages/*"
