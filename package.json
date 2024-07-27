@@ -3,7 +3,6 @@
   "type": "module",
   "name": "@medialayer/monorepo",
   "version": "0.0.2",
-  "packageManager": "npm@10.7.0",
   "repository": "github:epreston/medialayer",
   "workspaces": [
     "packages/*"
@@ -19,6 +18,10 @@
     "not dead"
   ],
   "prettier": "@epreston/prettier-config",
+  "packageManager": "npm@10.7.0",
+  "engines": {
+    "node": "^18.20.4 || ^20.15.1 || >=22.5.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build --emptyOutDir",
@@ -40,8 +43,5 @@
     "prettier": "^3.3.3",
     "vite": "^5.3.4",
     "vitest": "^2.0.4"
-  },
-  "engines": {
-    "node": "^18.20.4 || ^20.15.1 || >=22.5.0"
   }
 }
