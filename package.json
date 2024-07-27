@@ -25,7 +25,6 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --emptyOutDir",
-    "start": "vite --open",
     "lint": "eslint .",
     "test": "vitest run",
     "test-watch": "vitest",

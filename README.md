@@ -28,7 +28,6 @@ npm run dev
 | ------------- | ----------------------- | ------------------------------------------ |
 | dev           | `npm run dev`           | Start a development server                 |
 | build         | `npm run build`         | Create a production build into "dist"      |
-| start         | `npm run start`         | Start a dev server and open in web browser |
 | lint          | `npm run lint`          | Run static code analysis                   |
 | test          | `npm run test`          | Run unit tests                             |
 | test-watch    | `npm run test-watch`    | Watch for changes and run tests            |
