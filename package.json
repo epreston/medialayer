@@ -3,7 +3,10 @@
   "type": "module",
   "name": "@medialayer/monorepo",
   "version": "0.0.2",
-  "repository": "github:epreston/medialayer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epreston/medialayer.git"
+  },
   "workspaces": [
     "packages/*"
   ],
