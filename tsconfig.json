@@ -7,7 +7,6 @@
     "lib": ["es2024", "dom", "dom.iterable", "webworker"],
 
     /* Modules */
-    "rootDir": ".",
     "paths": {
       "@medialayer/*": ["./packages/*/src"],
       "medialayer": ["./packages/medialayer/src"]
