@@ -8,10 +8,9 @@
 
     /* Modules */
     "rootDir": ".",
-    "baseUrl": ".",
     "paths": {
-      "@medialayer/*": ["packages/*/src"],
-      "medialayer": ["packages/medialayer/src"]
+      "@medialayer/*": ["./packages/*/src"],
+      "medialayer": ["./packages/medialayer/src"]
     },
     "types": ["vitest/globals", "node"],
     "resolveJsonModule": true,
